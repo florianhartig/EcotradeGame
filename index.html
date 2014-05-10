@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>The Ecotrade Game by florianhartig</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>The Ecotrade Game</h1>
+        <p>A multiplayer online game of a tradable permit market written in java. </p>
+
+        <p class="view"><a href="https://github.com/florianhartig/EcotradeGame">View the Project on GitHub <small>florianhartig/EcotradeGame</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/florianhartig/EcotradeGame/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/florianhartig/EcotradeGame/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/florianhartig/EcotradeGame">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><strong>EcoTRADE - The Game</strong> is a multiplayer online game of a tradable permit market written in java. </p>
+
+<p><em>Disclaimer: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</em></p>
+
+<h3>
+<a name="faq" class="anchor" href="#faq"><span class="octicon octicon-link"></span></a>FAQ</h3>
+
+<h4>
+<a name="technichal-problems" class="anchor" href="#technichal-problems"><span class="octicon octicon-link"></span></a>Technichal problems</h4>
+
+<ul>
+<li><p><strong>The applet does not load, or does not work correctly</strong> - Make sure that you have a current version (1.5 or higher) of Java installed. The latest version can be downloaded free of charge <a href="http://java.sun.com/javase/downloads/index.jsp">here</a>. Also, make sure that you have not blocked java in the security settings of your browser. Try to empty your browser cache. </p></li>
+<li>
+<p><strong>No Ecotrade server under the given address</strong> - If your applet displays this message, there are two possible explanations: </p>
+
+<ul>
+<li>A firewall is blocking the connection between server and client. This is particularly likely when you try to connect to our server from the internet, but may also be the case on a local network. Make sure that either all firewalls between you and the server are turned off, or that the neccesary ports are openend. The game needs five ports for communication with the clients. These ports are the five consecutive ports starting from the port chosen in "server settings" (default 50000). Remember that additionally to your personal firewall on your computer, your company/institute may secure your internal network with additional firewalls which may limit access to these ports. In doubt, check with your IT staff. <br>
+</li>
+<li>There is no server running under the IP address you specified, or the port opened by the server and the port specified in your clients don't match. This is unlikely to be the case when you try to play the game on our website, but if you run the game on your local computer it may be that you have forgotten to start the server or specified wrong ports / IP addresses. Check whether you have started the server and updated the port information as described below.</li>
+</ul>
+</li>
+<li><p><strong>How do I start the game on a local Network or on a single computer?</strong> - First, start a server on one of the computers in the network. Do this by either opening the .jar file without options and click on server or master view, or by executing <strong>java -jar ecotrade.jar -server</strong>. Then, start the ecotrade clients on the other computers either through opening the .jar file and clicking on client or typing <strong>java -jar ecotrade.jar -client</strong>. If you run the game on a local network, you have to make the ip address of the server known to the clients under "server settings". You will also be asked for the port. Default value for the port used by the sever is is 50000, you can change this with the option -port when you start the server. Now, everything should work. If the clients don't find the server, check below for firewall problems. </p></li>
+<li><p><strong>I have a technical problem which could not be solved here</strong> - Please contact the maintainer</p></li>
+</ul><h4>
+<a name="general-questions" class="anchor" href="#general-questions"><span class="octicon octicon-link"></span></a>General questions</h4>
+
+<p>*Why did you create the game? - EcoTRADE - The Game was created by Martin Drechsler, Florian Hartig and Martin Horn for the Wissenschaftssommer 2008 as a part of the year of mathematics in Germany. The programming and design was done by Martin Horn. The aim of the Wissenschaftssommer is to communicate scientific research to the public and in particular to raise young peoples interest for scientific projects and research. </p>
+
+<p>*Who contributed to the development? Martin Drechsler, Florian Hartig, Martin Horn, Paul Vincent Kuper</p>
+
+<p>*I am planning to use the software e.g. for an experiment and need additional features, or I would like to contribute to the development. Please contact Martin Drechsler and Florian Hartig</p>
+
+<h4>
+<a name="publications" class="anchor" href="#publications"><span class="octicon octicon-link"></span></a>Publications</h4>
+
+<p>Hartig, F.; Horn, M. &amp; Drechsler, M. (2010) EcoTRADE - A multi-player network game of a tradable permit market for biodiversity credits. Environmental Modelling &amp; Software, 25, 1479-1480.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/florianhartig">florianhartig</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
